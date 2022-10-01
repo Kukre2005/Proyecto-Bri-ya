@@ -1,3 +1,11 @@
+:root{
+  --color-rose: rosybrown;
+  --color-pink: pink;
+  --color-black: black;
+  --color-grey: grey;
+  --color-blue: blue;
+}
+
 * {
   font-family: 'Raleway', sans-serif;
   margin: 0;
@@ -6,7 +14,7 @@
 }
 
 .header {
-  background-color: rosybrown;
+  background-color: var(--color-rose);
 }
 
 .header img {
@@ -14,8 +22,60 @@
   height: 10em;
   border-radius: 5em;
   position: relative;
-  left: 33em;
+  right: 24em;
 }
+
+.menu {
+  background-color: var(--color-rose);
+  box-shadow: 0 0 5px #00000060;
+}
+
+.menu__nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 10rem;
+}
+
+.menu__logo-box {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__logo-img {
+  height: 10em;
+  border-radius: 10em;
+}
+
+.menu__cart-login-box {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.menu__button {
+  padding: .6rem 1rem;
+  background-color: transparent;
+  color: var(--color-black);
+  border: 1px solid var(--color-black);
+  border-radius: .2rem;
+  outline: none;
+  transition: .2s;
+  font-size: .9rem;
+}
+
+.menu__button:hover{
+  background-color: var(--color-grey);
+  color: var(--color-white);
+  cursor: pointer;
+}
+
 
 nav {
   width: 80vw;

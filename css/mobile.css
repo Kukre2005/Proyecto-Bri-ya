@@ -1,0 +1,28 @@
+  @media (max-width: 900px) {
+    .header img {
+        position: relative;
+        left: initial;
+    }
+  }
+
+  @media (max-width: 900px) {
+    nav div input {
+      display: none;
+    }
+  }
+
+@media (max-width: 900px) {
+    #footer {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      padding: 0px;
+    }
+  }

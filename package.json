@@ -1,20 +1,20 @@
 {
-  "name": "challengeone-ecommerce",
+  "name": "proyecto-bri-ya",
   "version": "1.0.0",
-  "description": "E-Commerce para el desafío Alura Geek",
+  "description": "Proyecto Tienda Catalogo Bri-ya",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pablilloab/ChallengeONE-Ecommerce.git"
+    "url": "git+https://github.com/Kukre2005/Proyecto-Bri-ya.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pablilloab/ChallengeONE-Ecommerce/issues"
+    "url": "https://github.com/Kukre2005/Proyecto-Bri-ya/issues"
   },
-  "homepage": "https://github.com/pablilloab/ChallengeONE-Ecommerce#readme",
+  "homepage": "https://github.com/Kukre2005/Proyecto-Bri-ya#readme",
   "type": "module"
 }

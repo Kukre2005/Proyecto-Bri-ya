@@ -1,14 +1,14 @@
 import { data } from '../data/productos.js';
 
 //Renderizado de productos cargados en el archivo data.js
-let cardWrapperStarWars = document.querySelector(".star");
-let cardWrapperConsolas = document.querySelector(".consola");
-let cardWrapperDiversos = document.querySelector(".diversos");
+let cardWrapperStarWars = document.querySelector(".accesorios");
+let cardWrapperConsolas = document.querySelector(".scrunchies");
+let cardWrapperDiversos = document.querySelector(".luxury");
 
 const showProducts = () => {
-    listarProductos(cardWrapperStarWars,data.starWars);
-    listarProductos(cardWrapperConsolas,data.consolas);
-    listarProductos(cardWrapperDiversos,data.diversos);    
+    listarProductos(cardWrapperStarWars,data.accesorios);
+    listarProductos(cardWrapperConsolas,data.scrunchies);
+    listarProductos(cardWrapperDiversos,data.luxury);    
 }
 
 const listarProductos = (cardWrapper,array) => {
@@ -36,13 +36,13 @@ window.mostrarInfo = (id, event) =>{
     //console.log(id,event.target.className)
     switch (event.target.className) {
         case "star":
-            crearModal(data.starWars[id]);
+            crearModal(data.accesorios[id]);
             break;
         case "consola" :
-            crearModal(data.consolas[id]);
+            crearModal(data.scrunchies[id]);
             break;
-        case "diversos":
-            crearModal(data.diversos[id]);
+        case "luxury":
+            crearModal(data.luxury[id]);
             break;
     }
 }

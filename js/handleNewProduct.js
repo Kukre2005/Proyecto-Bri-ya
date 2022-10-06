@@ -23,21 +23,21 @@ btnEnviar.addEventListener("click", (event) => {
     let categoria = form.categoria.value;
     console.log(categoria)
 
-    console.log(data.starWars);
+    console.log(data.accesorios);
     
     switch (categoria) {
-        case "star":
-            newProducto.id = data.starWars.length + 1;
+        case "accesorios":
+            newProducto.id = data.accesorios.length + 1;
             data.starWars.push(newProducto);
-            console.log(data.starWars);
+            console.log(data.accesorios);
             break;
-        case "consola":
-            newProducto.id = data.consolas.length + 1;
-            data.consolas.push(newProducto);
+        case "scrunchies":
+            newProducto.id = data.scrunchies.length + 1;
+            data.scrunchies.push(newProducto);
             break;
-        case "diversos":
-            newProducto.id = data.diversos.length + 1;
-            data.diversos.push(newProducto);
+        case "luxury":
+            newProducto.id = data.luxury.length + 1;
+            data.luxury.push(newProducto);
             break;    
     }
 

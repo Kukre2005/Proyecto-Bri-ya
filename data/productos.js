@@ -1,4 +1,4 @@
-const starWars = [
+const accesorios = [
     {
         id:0,
         img:"./img/Accesorios/Aritos_briya.jpg",
@@ -44,7 +44,7 @@ const starWars = [
 
 ]
 
-const diversos = [
+const scrunchies = [
     {
         id:0,
         img:"./img/diversos/consolas.jpg",
@@ -90,7 +90,7 @@ const diversos = [
 
 ]   
 
-const consolas = [
+const luxury = [
     {
         id:0,
         img:"./img/Scrunchies/Scrunchie_amarillo.jpg",
@@ -138,7 +138,7 @@ const consolas = [
 
 
 export const data = {
-    starWars,
-    consolas,
-    diversos,
+    accesorios,
+    scrunchies,
+    luxury,
 }

@@ -265,6 +265,23 @@ nav button {
   margin-top: 50px;
 }
 
+.fa {
+  padding: 16px 32px;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius:5em;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
 
 
 #modal {

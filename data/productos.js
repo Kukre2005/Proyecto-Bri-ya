@@ -1,7 +1,7 @@
 const starWars = [
     {
         id:0,
-        img:"./img/star-wars/baby-yoda.jpg",
+        img:"./img/Accesorios/Aritos_briya.jpg",
         title:"Baby Yoda",
         desc:"Pequeño muñequito del adorable baby Yoda!!",
         precio:60.00
@@ -93,7 +93,7 @@ const diversos = [
 const consolas = [
     {
         id:0,
-        img:"./img/consolas/gameboy.jpg",
+        img:"./img/Scrunchies/Scrunchie_amarillo.jpg",
         title:"Gameboy",
         desc:"Lleva la diversion a todos lados",
         precio:60.00

@@ -3,7 +3,9 @@
   --color-pink: pink;
   --color-black: black;
   --color-grey: grey;
-  --color-blue: blue;
+  --color-blue: #125688;
+  --color-white: white;
+  --color-cyan: cyan;
 }
 
 * {
@@ -61,18 +63,16 @@
 
 .menu__button {
   padding: .6rem 1rem;
-  background-color: transparent;
-  color: var(--color-black);
-  border: 1px solid var(--color-black);
-  border-radius: .2rem;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  border-radius: 5em;
   outline: none;
   transition: .2s;
   font-size: .9rem;
 }
 
 .menu__button:hover{
-  background-color: var(--color-grey);
-  color: var(--color-white);
+  opacity: 0.7;
   cursor: pointer;
 }
 

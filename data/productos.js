@@ -1,45 +1,45 @@
 const accesorios = [
     {
         id:0,
-        img:"./img/Accesorios/Aritos_briya.jpg",
-        title:"Baby Yoda",
-        desc:"Pequeño muñequito del adorable baby Yoda!!",
-        precio:60.00
+        img:"./img/Accesorios/collar_fimo.jpg",
+        title:"Collar Fimo",
+        desc:"Collar en Fimo. Tendencia 2022",
+        precio:1090
     },
     {
         id:1,
-        img:"./img/star-wars/clone.jpg",
-        title:"The Clone",
-        desc:"Replica tamaño real del Clone",
-        precio:60.00
+        img:"./img/Accesorios/collar_soñado.jpg",
+        title:"Collar Soñado",
+        desc:"Collar blanco y combinación pastel",
+        precio:1320
     },
     {
         id:2,
-        img:"./img/star-wars/clone-head.jpg",
-        title:"CLone Head",
-        desc:"Preparate un mate en la cabeza del CLone y geekeala a lo grande!",
-        precio:60.00
+        img:"./img/Accesorios/collar.jpg",
+        title:"Collar Gargantilla Ámbar",
+        desc:"Gargantilla de diseño exclusivo.",
+        precio:1800
     },
     {
         id:3,
-        img:"./img/star-wars/lord.jpg",
-        title:"The Lord",
-        desc:"Welcome to the dark Side!",
-        precio:60.00
+        img:"./img/Accesorios/collar_leon.jpg",
+        title:"Gargantilla León de Judá",
+        desc:"Gargantilla a mano en su totalidad , compuesta por piedras Hematite, mostacilla Checa y dije de León.",
+        precio:1400
     },
     {
         id:4,
-        img:"./img/star-wars/lord-head.jpg",
-        title:"LLavero Lord Head",
-        desc:"Llaveros Lord Head, ideales para llevar a todos lados",
-        precio:60.00
+        img:"./img/Accesorios/pulsera_estrella.jpg",
+        title:"Pulsera Belén",
+        desc:"Pulsera realizada en mostacillon dorado y negro. Mostacilla checa dorada y cristal checo color negro. Dije de estrella. Largo 21cms",
+        precio:400
     },
     {
         id:5,
-        img:"./img/star-wars/yoda.jpg",
-        title:"Yoda",
-        desc:"El imperdible Yoda edicion limitada",
-        precio:60.00
+        img:"./img/Accesorios/skin_care.jpg",
+        title:"Kit Skin Care",
+        desc:"Turbante + Scrunchie al tono",
+        precio:450
     },    
 
 ]
@@ -47,137 +47,83 @@ const accesorios = [
 const luxury = [
     {
         id:0,
-        img:"./img/diversos/consolas.jpg",
-        title:"Consolas",
-        desc:"Las mejores Ofertas en Consolas",
-        precio:60.00
+        img:"./img/Luxury/aritos_corazon.jpg",
+        title:"Aros Double Heart",
+        desc:"Aros de Diseño en forma de corazón",
+        precio:1500
     },
     {
         id:1,
-        img:"./img/diversos/despertador.jpg",
-        title:"Reloj Despertador",
-        desc:"La mejor manera de despartarse sin enojarse con el mundo",
-        precio:60.00
+        img:"./img/Luxury/aritos_cristal.jpg",
+        title:"Aros con Cristal Swarovsky ",
+        desc:"Aros en material Golfilled ( oro laminado) con Cristal Swarovsky Tornasol",
+        precio:2800
     },
     {
         id:2,
-        img:"./img/diversos/pokemon.jpg",
-        title:"Pikachu",
-        desc:"El peluche de Pikachu en tamaño real!!!",
-        precio:60.00
+        img:"./img/Luxury/holder_cadena.jpg",
+        title:"Holder cadena acrílica ",
+        desc:"Sujetador 2 en 1 para lentes y /o barbijo en cadena acrílica blanca o negra",
+        precio:660
     },
     {
         id:3,
-        img:"./img/diversos/remera-atari.jpg",
-        title:"Remera Atari",
-        desc:"Mostrale al universo tu amor por Atari",
-        precio:60.00
+        img:"./img/Luxury/holder_personajes.jpg",
+        title:"Holder Cinta Personajes",
+        desc:"Holder sublimado infantil personajes. Consulta el stock disponible",
+        precio:300
     },
-    {
-        id:4,
-        img:"./img/diversos/sony.jpg",
-        title:"Sony",
-        desc:"Te podes resistir al heroe mas heroe de todos los heroes",
-        precio:60.00
-    },
-    {
-        id:5,
-        img:"./img/diversos/vr.jpg",
-        title:"Virtual Reality",
-        desc:"Entra al nuevo mundo, EL VIRTUAL, de la mano de Alura Geek",
-        precio:60.00
-    },
-
 ]   
 
 const scrunchies = [
     {
         id:0,
-        img:"./img/Scrunchies/Scrunchie_amarillo.jpg",
-        title:"Gameboy",
-        desc:"Lleva la diversion a todos lados",
-        precio:60.00
+        img:"./img/Scrunchies/scrunchies_amarillo.jpg",
+        title:"Scrunchie de raso ",
+        desc:"Scrunchies de Raso . Consulta tonos disponibles ",
+        precio:200
     },
     {
         id:1,
-        img:"./img/consolas/pc.jpg",
-        title:"PC",
-        desc:"Tu estacion de juego! La mejor y mas potente de todas",
-        precio:60.00
+        img:"./img/Scrunchies/scrunchies_raso_1.jpg",
+        title:"Scrunchie de raso ",
+        desc:"Scrunchies de Raso . Consulta tonos disponibles ",
+        precio:200
     },
     {
         id:2,
-        img:"./img/consolas/play.jpg",
-        title:"Play Station",
-        desc:"La legendaria consola llego a Alura Geek",
-        precio:60.00
+        img:"./img/Scrunchies/scrunchies_raso_2.jpg",
+        title:"Scrunchie de raso ",
+        desc:"Scrunchies de Raso . Consulta tonos disponibles ",
+        precio:200
     },
     {
         id:3,
-        img:"./img/consolas/super-nintendo.jpg",
-        title:"Super Nintendo",
-        desc:"Por q lo retro nunca se pierde, la super Nintendo!",
-        precio:60.00
+        img:"./img/Scrunchies/scrunchies_raso_3.jpg",
+        title:"Scrunchie de raso ",
+        desc:"Scrunchies de Raso . Consulta tonos disponibles ",
+        precio:200
     },
     {
         id:4,
-        img:"./img/consolas/wii.jpg",
-        title:"Wii",
-        desc:"Nintendo Wii para los mas peques!",
-        precio:60.00
+        img:"./img/Scrunchies/scrunchies_raso_4.jpg",
+        title:"Scrunchie de raso ",
+        desc:"Scrunchies de Raso . Consulta tonos disponibles ",
+        precio:200
     },
     {
         id:5,
-        img:"./img/consolas/xbox.jpg",
-        title:"Xbox",
-        desc:"Xbox y GamePass que otra queres para este fin de semana",
-        precio:60.00
-    },
-
-]
-
-const holder = [
-    {
-        id:0,
-        img:"./img/Holder/holder_personajes.jpg",
-        title:"Gameboy",
-        desc:"Lleva la diversion a todos lados",
-        precio:60.00
+        img:"./img/Scrunchies/scrunchies_raso_5.jpg",
+        title:"Scrunchie de raso ",
+        desc:"Scrunchies de Raso . Consulta tonos disponibles ",
+        precio:200
     },
     {
-        id:1,
-        img:"./img/consolas/pc.jpg",
-        title:"PC",
-        desc:"Tu estacion de juego! La mejor y mas potente de todas",
-        precio:60.00
-    },
-    {
-        id:2,
-        img:"./img/consolas/play.jpg",
-        title:"Play Station",
-        desc:"La legendaria consola llego a Alura Geek",
-        precio:60.00
-    },
-    {
-        id:3,
-        img:"./img/consolas/super-nintendo.jpg",
-        title:"Super Nintendo",
-        desc:"Por q lo retro nunca se pierde, la super Nintendo!",
-        precio:60.00
-    },
-    {
-        id:4,
-        img:"./img/consolas/wii.jpg",
-        title:"Wii",
-        desc:"Nintendo Wii para los mas peques!",
-        precio:60.00
-    },
-    {
-        id:5,
-        img:"./img/consolas/xbox.jpg",
-        title:"Xbox",
-        desc:"Xbox y GamePass que otra queres para este fin de semana",
-        precio:60.00
+        id:6,
+        img:"./img/Scrunchies/scrunchies_raso_6.jpg",
+        title:"Scrunchie de raso ",
+        desc:"Scrunchies de Raso . Consulta tonos disponibles ",
+        precio:200
     },
 
 ]
@@ -185,93 +131,56 @@ const holder = [
 const pañuelos = [
     {
         id:0,
-        img:"./img/Holder/holder_personajes.jpg",
-        title:"Gameboy",
-        desc:"Lleva la diversion a todos lados",
-        precio:60.00
+        img:"./img/Pañuelos/pañuelos_1.jpg",
+        title:"Pañuelo",
+        desc:"Pañuelo de Satén 47x47 cm. Diseños varios sujeto a stock",
+        precio:400
     },
     {
         id:1,
-        img:"./img/consolas/pc.jpg",
-        title:"PC",
-        desc:"Tu estacion de juego! La mejor y mas potente de todas",
-        precio:60.00
+        img:"./img/Pañuelos/pañuelos_2.jpg",
+        title:"Pañuelo Diseño Exclusivo Seda Print Rosa",
+        desc:"Pañuelo de Seda de 50 x50 Cms. Linea Bandida. Diseño Exclusivo",
+        precio:820
     },
     {
         id:2,
-        img:"./img/consolas/play.jpg",
-        title:"Play Station",
-        desc:"La legendaria consola llego a Alura Geek",
-        precio:60.00
+        img:"./img/Pañuelos/pañuelos_3.jpg",
+        title:"Pañuelo animal print",
+        desc:"Satén 47x47cm",
+        precio:400
     },
     {
         id:3,
-        img:"./img/consolas/super-nintendo.jpg",
-        title:"Super Nintendo",
-        desc:"Por q lo retro nunca se pierde, la super Nintendo!",
-        precio:60.00
+        img:"./img/Pañuelos/pañuelos_4.jpg",
+        title:"Pañuelo de diseño Seda print fucsia",
+        desc:"Pañuelo de Seda de 50 x50 Cms. Linea Bandida. Diseño Exclusivo",
+        precio:820.00
     },
-    {
-        id:4,
-        img:"./img/consolas/wii.jpg",
-        title:"Wii",
-        desc:"Nintendo Wii para los mas peques!",
-        precio:60.00
-    },
-    {
-        id:5,
-        img:"./img/consolas/xbox.jpg",
-        title:"Xbox",
-        desc:"Xbox y GamePass que otra queres para este fin de semana",
-        precio:60.00
-    },
-
 ]
 
 const llaveros = [
     {
         id:0,
-        img:"./img/Holder/holder_personajes.jpg",
-        title:"Gameboy",
-        desc:"Lleva la diversion a todos lados",
-        precio:60.00
+        img:"./img/Llaveros/llaveros_1.jpg",
+        title:"Llavero Cinta sublimada ",
+        desc:"Llavero en Cinta sublimada. Super fuertes y cancheros. Diseños varia según stock",
+        precio:580.00
     },
     {
         id:1,
-        img:"./img/consolas/pc.jpg",
-        title:"PC",
-        desc:"Tu estacion de juego! La mejor y mas potente de todas",
-        precio:60.00
+        img:"./img/Llaveros/llaveros_2.jpg",
+        title:"Llavero Cinta sublimada estrellas",
+        desc:"Llaveros en cinta sublimada. Super fuertes y cancheros. Diseños sujeto a stock. Consulta sin compromiso",
+        precio:580.00
     },
     {
         id:2,
-        img:"./img/consolas/play.jpg",
-        title:"Play Station",
-        desc:"La legendaria consola llego a Alura Geek",
-        precio:60.00
+        img:"./img/Llaveros/llaveros_3.jpg",
+        title:"Llaveros",
+        desc:"Llaveros en cinta sublimada. Diseños varios sujetos a stock.",
+        precio:580.00
     },
-    {
-        id:3,
-        img:"./img/consolas/super-nintendo.jpg",
-        title:"Super Nintendo",
-        desc:"Por q lo retro nunca se pierde, la super Nintendo!",
-        precio:60.00
-    },
-    {
-        id:4,
-        img:"./img/consolas/wii.jpg",
-        title:"Wii",
-        desc:"Nintendo Wii para los mas peques!",
-        precio:60.00
-    },
-    {
-        id:5,
-        img:"./img/consolas/xbox.jpg",
-        title:"Xbox",
-        desc:"Xbox y GamePass que otra queres para este fin de semana",
-        precio:60.00
-    },
-
 ]
 
 
@@ -279,7 +188,6 @@ export const data = {
     accesorios,
     luxury,
     scrunchies,
-    holder,
     pañuelos,
     llaveros,
 }

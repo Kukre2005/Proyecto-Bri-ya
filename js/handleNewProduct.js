@@ -38,7 +38,19 @@ btnEnviar.addEventListener("click", (event) => {
         case "luxury":
             newProducto.id = data.luxury.length + 1;
             data.luxury.push(newProducto);
-            break;    
+            break;
+        case "holder":
+            newProducto.id = data.holder.length + 1;
+            data.holder.push(newProducto);
+            break;
+        case "pañuelos":
+            newProducto.id = data.pañuelos.length + 1;
+            data.pañuelos.push(newProducto);
+            break;
+        case "llaveros":
+            newProducto.id = data.llaveros.length + 1,
+            data.llaveros.push(newProducto);
+            break;
     }
 
 

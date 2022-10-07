@@ -44,7 +44,7 @@ const accesorios = [
 
 ]
 
-const scrunchies = [
+const luxury = [
     {
         id:0,
         img:"./img/diversos/consolas.jpg",
@@ -90,7 +90,7 @@ const scrunchies = [
 
 ]   
 
-const luxury = [
+const scrunchies = [
     {
         id:0,
         img:"./img/Scrunchies/Scrunchie_amarillo.jpg",
@@ -136,9 +136,150 @@ const luxury = [
 
 ]
 
+const holder = [
+    {
+        id:0,
+        img:"./img/Holder/holder_personajes.jpg",
+        title:"Gameboy",
+        desc:"Lleva la diversion a todos lados",
+        precio:60.00
+    },
+    {
+        id:1,
+        img:"./img/consolas/pc.jpg",
+        title:"PC",
+        desc:"Tu estacion de juego! La mejor y mas potente de todas",
+        precio:60.00
+    },
+    {
+        id:2,
+        img:"./img/consolas/play.jpg",
+        title:"Play Station",
+        desc:"La legendaria consola llego a Alura Geek",
+        precio:60.00
+    },
+    {
+        id:3,
+        img:"./img/consolas/super-nintendo.jpg",
+        title:"Super Nintendo",
+        desc:"Por q lo retro nunca se pierde, la super Nintendo!",
+        precio:60.00
+    },
+    {
+        id:4,
+        img:"./img/consolas/wii.jpg",
+        title:"Wii",
+        desc:"Nintendo Wii para los mas peques!",
+        precio:60.00
+    },
+    {
+        id:5,
+        img:"./img/consolas/xbox.jpg",
+        title:"Xbox",
+        desc:"Xbox y GamePass que otra queres para este fin de semana",
+        precio:60.00
+    },
+
+]
+
+const pañuelos = [
+    {
+        id:0,
+        img:"./img/Holder/holder_personajes.jpg",
+        title:"Gameboy",
+        desc:"Lleva la diversion a todos lados",
+        precio:60.00
+    },
+    {
+        id:1,
+        img:"./img/consolas/pc.jpg",
+        title:"PC",
+        desc:"Tu estacion de juego! La mejor y mas potente de todas",
+        precio:60.00
+    },
+    {
+        id:2,
+        img:"./img/consolas/play.jpg",
+        title:"Play Station",
+        desc:"La legendaria consola llego a Alura Geek",
+        precio:60.00
+    },
+    {
+        id:3,
+        img:"./img/consolas/super-nintendo.jpg",
+        title:"Super Nintendo",
+        desc:"Por q lo retro nunca se pierde, la super Nintendo!",
+        precio:60.00
+    },
+    {
+        id:4,
+        img:"./img/consolas/wii.jpg",
+        title:"Wii",
+        desc:"Nintendo Wii para los mas peques!",
+        precio:60.00
+    },
+    {
+        id:5,
+        img:"./img/consolas/xbox.jpg",
+        title:"Xbox",
+        desc:"Xbox y GamePass que otra queres para este fin de semana",
+        precio:60.00
+    },
+
+]
+
+const llaveros = [
+    {
+        id:0,
+        img:"./img/Holder/holder_personajes.jpg",
+        title:"Gameboy",
+        desc:"Lleva la diversion a todos lados",
+        precio:60.00
+    },
+    {
+        id:1,
+        img:"./img/consolas/pc.jpg",
+        title:"PC",
+        desc:"Tu estacion de juego! La mejor y mas potente de todas",
+        precio:60.00
+    },
+    {
+        id:2,
+        img:"./img/consolas/play.jpg",
+        title:"Play Station",
+        desc:"La legendaria consola llego a Alura Geek",
+        precio:60.00
+    },
+    {
+        id:3,
+        img:"./img/consolas/super-nintendo.jpg",
+        title:"Super Nintendo",
+        desc:"Por q lo retro nunca se pierde, la super Nintendo!",
+        precio:60.00
+    },
+    {
+        id:4,
+        img:"./img/consolas/wii.jpg",
+        title:"Wii",
+        desc:"Nintendo Wii para los mas peques!",
+        precio:60.00
+    },
+    {
+        id:5,
+        img:"./img/consolas/xbox.jpg",
+        title:"Xbox",
+        desc:"Xbox y GamePass que otra queres para este fin de semana",
+        precio:60.00
+    },
+
+]
+
 
 export const data = {
     accesorios,
-    scrunchies,
     luxury,
+    scrunchies,
+    holder,
+    pañuelos,
+    llaveros,
 }

@@ -1,14 +1,20 @@
 import { data } from '../data/productos.js';
 
 //Renderizado de productos cargados en el archivo data.js
-let cardWrapperStarWars = document.querySelector(".accesorios");
-let cardWrapperConsolas = document.querySelector(".scrunchies");
-let cardWrapperDiversos = document.querySelector(".luxury");
+let cardWrapperAccesorios = document.querySelector(".accesorios");
+let cardWrapperScrunchies = document.querySelector(".scrunchies");
+let cardWrapperLuxury = document.querySelector(".luxury");
+let cardWrapperHolder = document.querySelector(".holder");
+let cardWrapperPañuelos = document.querySelector(".pañuelos");
+let cardWrapperLlaveros = document.querySelector(".llaveros")
 
 const showProducts = () => {
-    listarProductos(cardWrapperStarWars,data.accesorios);
-    listarProductos(cardWrapperConsolas,data.scrunchies);
-    listarProductos(cardWrapperDiversos,data.luxury);    
+    listarProductos(cardWrapperAccesorios,data.accesorios);
+    listarProductos(cardWrapperScrunchies,data.scrunchies);
+    listarProductos(cardWrapperLuxury,data.luxury);
+    listarProductos(cardWrapperHolder,data.holder);
+    listarProductos(cardWrapperPañuelos,data.pañuelos);
+    listarProductos(cardWrapperLlaveros,data.llaveros);  
 }
 
 const listarProductos = (cardWrapper,array) => {
@@ -35,14 +41,23 @@ window.onload = showProducts;
 window.mostrarInfo = (id, event) =>{
     //console.log(id,event.target.className)
     switch (event.target.className) {
-        case "star":
+        case "accesorios":
             crearModal(data.accesorios[id]);
             break;
-        case "consola" :
+        case "scrunchies" :
             crearModal(data.scrunchies[id]);
             break;
         case "luxury":
             crearModal(data.luxury[id]);
+            break;
+        case "holder":
+            crearModal(data.holder[id]);
+            break;
+        case "pañuelos":
+            crearModal(data.pañuelos[id]);
+            break;
+        case "llaveros":
+            crearModal(data.llaveros[id]);
             break;
     }
 }

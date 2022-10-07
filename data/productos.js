@@ -128,37 +128,6 @@ const scrunchies = [
 
 ]
 
-const pañuelos = [
-    {
-        id:0,
-        img:"./img/Pañuelos/pañuelos_1.jpg",
-        title:"Pañuelo",
-        desc:"Pañuelo de Satén 47x47 cm. Diseños varios sujeto a stock",
-        precio:400
-    },
-    {
-        id:1,
-        img:"./img/Pañuelos/pañuelos_2.jpg",
-        title:"Pañuelo Diseño Exclusivo Seda Print Rosa",
-        desc:"Pañuelo de Seda de 50 x50 Cms. Linea Bandida. Diseño Exclusivo",
-        precio:820
-    },
-    {
-        id:2,
-        img:"./img/Pañuelos/pañuelos_3.jpg",
-        title:"Pañuelo animal print",
-        desc:"Satén 47x47cm",
-        precio:400
-    },
-    {
-        id:3,
-        img:"./img/Pañuelos/pañuelos_4.jpg",
-        title:"Pañuelo de diseño Seda print fucsia",
-        desc:"Pañuelo de Seda de 50 x50 Cms. Linea Bandida. Diseño Exclusivo",
-        precio:820.00
-    },
-]
-
 const llaveros = [
     {
         id:0,
@@ -188,6 +157,5 @@ export const data = {
     accesorios,
     luxury,
     scrunchies,
-    pañuelos,
     llaveros,
 }

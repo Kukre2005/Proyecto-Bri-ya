@@ -16,7 +16,7 @@
 }
 
 .header {
-  background-color: var(--color-rose);
+  background-color: var(--color-cyan);
 }
 
 .header img {
@@ -28,7 +28,7 @@
 }
 
 .menu {
-  background-color: var(--color-rose);
+  background-color: var(--color-cyan);
   box-shadow: 0 0 5px #00000060;
 }
 
@@ -216,7 +216,7 @@ nav button {
 }
 
 #contacto {
-  background-color: rosybrown;
+  background-color: var(--color-cyan);
   display: flex;
   justify-content: space-around;
   padding: 20px;
@@ -255,12 +255,12 @@ nav button {
 
 
 .footer {
-  background-color: rosybrown;
+  background-color: var(--color-cyan);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   padding: 20px;
   margin-top: 50px;
 }

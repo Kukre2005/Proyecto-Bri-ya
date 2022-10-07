@@ -4,14 +4,12 @@ import { data } from '../data/productos.js';
 let cardWrapperAccesorios = document.querySelector(".accesorios");
 let cardWrapperScrunchies = document.querySelector(".scrunchies");
 let cardWrapperLuxury = document.querySelector(".luxury");
-let cardWrapperPañuelos = document.querySelector(".pañuelos");
 let cardWrapperLlaveros = document.querySelector(".llaveros")
 
 const showProducts = () => {
     listarProductos(cardWrapperAccesorios,data.accesorios);
     listarProductos(cardWrapperScrunchies,data.scrunchies);
     listarProductos(cardWrapperLuxury,data.luxury);
-    listarProductos(cardWrapperPañuelos,data.pañuelos);
     listarProductos(cardWrapperLlaveros,data.llaveros);  
 }
 
@@ -47,9 +45,6 @@ window.mostrarInfo = (id, event) =>{
             break;
         case "luxury":
             crearModal(data.luxury[id]);
-            break;
-        case "pañuelos":
-            crearModal(data.pañuelos[id]);
             break;
         case "llaveros":
             crearModal(data.llaveros[id]);

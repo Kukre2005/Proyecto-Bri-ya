@@ -1,2 +1,2 @@
-# ChallengeONE-Ecommerce
-E-Commerce para el desafío Alura Geek
+# Proyecto Tienda de catalogo Bri-ya
+Tienda de catalogo de articulos de Bri-ya
